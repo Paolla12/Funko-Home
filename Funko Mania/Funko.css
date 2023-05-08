@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+img{
+
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+}
+
+.nav-list {
+    float: inline-start;
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.nav-list li a{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.nav-list li a:hover{
+    color: #5a439b;
+}
+
+.search-box {
+    position: relative;
+    top: 20px;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background: black;
+    padding: 8px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    width: 0;
+    transition: .5s;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.search-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.search-button img{
+    height: 30px;
+    width: 30px;
+}
+
+.search-box:hover > .search-text {
+    width: 199px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-button {
+    background: #5a439b;
+}
+
+.contat{
+    height: 40px;
+    width: 59px;
+    display: flex;
+    padding-left: 300px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carrinho {
+    height: 40px;
+    width: 42px;
+    display: flex;
+    padding-left: 60px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+main {
+    background: url(banner.png) no-repeat
+    center center;
+    background-size: cover;
+    height: 541px;
+    width: 1349px;
+    opacity: 70%;
+}
+
+.wallpaper h1 {
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    top: 10%;
+    left: 10%;
+    margin-left: 0px;
+    margin-top: 98px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+   
+}
+
+.wallpaper h2 {
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    top: 10%;
+    left: 20%;
+    margin-left: 0px;
+    margin-top: 97px;
+    font-size: 40px;
+    text-align: leftt;
+    justify-content: left;
+    align-items: center;
+   
+}
+
+.wallpaper img{
+    float: left;
+    height: 399px;
+    width: 399px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.principal{
+    position: absolute;
+    top: 220px;
+    display: flex;
+    left: 30px;
+    font-size: 27px;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text {
+    position: absolute;
+    top: 256px;
+    display: flex;
+    left: 30px;
+    font-size: 25px;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2 {
+    position: absolute;
+    top: 287px;
+    display: flex;
+    left: 30px;
+    font-size: 25px;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    cursor: pointer;
+    position: absolute;
+    top: 399px;
+    left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: black;
+    letter-spacing: 3px;
+    padding: 25px 55px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .2s;
+    box-shadow: 0px 8px 0px black;
+    
+}
+
+.botao:hover {
+    background: black;
+    color: #fff;
+    letter-spacing: 4px;
+    box-shadow: 0px 8px 0px #fff;
+}
+
+/* Começo da wandinha*/
+
+.gotic h1{
+    position: absolute;
+    display: block;
+    color: #fff;
+    width: 50px;
+    height: 20px;
+    top: 90%;
+    left: 5%;
+    margin-left: 0px;
+    margin-top: 98px;
+    font-size: 40px;
+    
+    text-align: left;
+}
+
+
+.gotic h2{
+    position: absolute;
+    display: block;
+    color: #fff;
+    width: 50px;
+    height: 20px;
+    top: 90%;
+    left: 17%;
+    margin-left: 0px;
+    margin-top: 98px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.gotic img {
+    float: left;
+    height: 284px;
+    width: 284px;
+    position: absolute;
+    top: 130%;
+    left: 28%;
+}
+
+.txt {
+    position: absolute;
+    top: 745px;
+    display: flex;
+    left: 50px;
+    font-size: 27px;
+    color: #fff;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt2 {
+    position: absolute;
+    top: 774px;
+    display: flex;
+    left: 50px;
+    font-size: 27px;
+    color: #fff;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt3 {
+    position: absolute;
+    top: 795px;
+    display: flex;
+    left: 50px;
+    font-size: 27px;
+    color: #fff;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    cursor: pointer;
+    position: absolute;
+    top: 999px;
+    left: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #fff;
+    letter-spacing: 3px;
+    padding: 25px 55px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .2s;
+    box-shadow: 0px 8px 0px #fff;
+}
+
+.btn:hover {
+    background: #fff;
+    color: black;
+    letter-spacing: 4px;
+    box-shadow: 0px 8px 0px black;
+}
+
+.dark {
+    height: 542px;
+    width: 689px;
+}
+
+/*fim do da wandinha */
+
+/*começo do da malevola */
+
+.mal h1{
+    position: absolute;
+    display: block;
+    color: black;
+    width: 50px;
+    height: 20px;
+    top: 90%;
+    left: 56%;
+    margin-left: 0px;
+    margin-top: 98px;
+    font-size: 40px;
+    text-align: left;
+}
+
+
+.mal h2{
+    position: absolute;
+    display: block;
+    color: black;
+    width: 50px;
+    height: 20px;
+    top: 90%;
+    left: 68%;
+    margin-left: 0px;
+    margin-top: 98px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.mal img {
+    height: 282px;
+    width: 282px;
+    position: absolute;
+    top: 130%;
+    left: 77%;
+}
+
+.txt4 {
+    position: absolute;
+    top: 745px;
+    display: flex;
+    left: 749px;
+    font-size: 27px;
+    color: black;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt5 {
+    position: absolute;
+    top: 774px;
+    display: flex;
+    left: 750px;
+    font-size: 27px;
+    color: black;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt6 {
+    position: absolute;
+    top: 795px;
+    display: flex;
+    left: 749px;
+    font-size: 27px;
+    color: black;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.buton {
+    cursor: pointer;
+    position: absolute;
+    top: 999px;
+    left: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #fff;
+    letter-spacing: 3px;
+    padding: 25px 55px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .2s;
+    box-shadow: 0px 8px 0px #fff;
+}
+
+.buton:hover {
+    background: #fff;
+    color: black;
+    letter-spacing: 4px;
+    box-shadow: 0px 8px 0px black;
+}
+
+.cruel {
+    position: absolute;
+    top: 104%;
+    left: 51%;
+    height: 540px;
+    width: 662px;
+}
+/*fim do da malevola */
+
+/*começo do footer */
+
+.footer {
+    position: absolute;
+    background: black;
+    height: 260px;
+    width: 1349px;
+    top: 192%;
+}
+
+.footer img {
+    position: absolute;
+    width: 201px;
+    height: 201px;
+    top: 7%;
+    left: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1{
+    position: absolute;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    left: 25%;
+    top: 14%;
+    color: #fff;
+}
+
+.footer h2{
+    position: absolute;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    left: 50%;
+    top: 14%;
+    color: #fff;
+}
+
+.footer p{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    left: 25%;
+    top: 29%;
+    color: #fff;
+}
+
+.footer a{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    left: 25%;
+    top: 40%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.footer a:hover {
+    color: #532eda;
+    letter-spacing: 2px;
+}
+
+.footer h3 a {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    left: 25%;
+    top: 49%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.footer h4{
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    left: 50%;
+    top: 29%;
+    color: #fff;
+}
+
+.footer h5{
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    left: 50%;
+    top: 36%;
+    color: #fff;
+}
+
+.comunic {
+    position: absolute;
+    top: 197%;
+    left: 81%;
+    font-size: 14px;
+    color: #fff;
+}
+
+.fn {
+    position: absolute;
+    top: 203%;
+    left: 22%;
+}
+.fn img{
+    width: 35px;
+    height: 35px;
+}
+
+.redes {
+    display: inline-block;
+}
+
+.redes a{
+    position: absolute;
+    top: 205%;
+    left: 80%;
+    background: #fff;
+    border-radius: 40px;
+    color: #fff;
+}
+
+
+.redes img {
+    height: 50px;
+    width: 50px;
+}
+
+
+.rd2 a{
+    position: absolute;
+    top: 205%;
+    left: 85%;
+    background: #fff;
+    border-radius: 40px;
+    color: #fff;
+}
+
+
+.rd2 img {
+    height: 50px;
+    width: 50px;
+}
+
+.rd3 a{
+    position: absolute;
+    top: 205%;
+    left: 90%;
+    background: #fff;
+    border-radius: 40px;
+    color: #fff;
+}
+
+
+.rd3 img {
+    height: 50px;
+    width: 50px;
+}
+
+.creditos {
+    position: absolute;
+    top: 225%;
+    left: 18%;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
