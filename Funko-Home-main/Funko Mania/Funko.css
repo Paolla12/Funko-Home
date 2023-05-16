@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Lexend Deca', sans-serif;
+    
 }
 
 a {
@@ -106,7 +107,7 @@ nav {
     height: 40px;
     width: 59px;
     display: flex;
-    padding-left: 300px;
+    padding-left: 390px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -629,6 +630,31 @@ main {
     left: 18%;
     color: #fff;
 }
+
+@media screen {
+    main {
+    background-size: cover;
+    height: 560px;
+    width: 1903px;
+    opacity: 70%;
+    }
+
+    .wallpaper img {
+
+        float: left;
+        height: 450px;
+        width: 450px;
+        position: absolute;
+        top: 20%;
+        left: 70%;
+    }
+
+    .wallpaper h2 {
+        left: 18%;
+    }
+
+}
+
 
 
 
